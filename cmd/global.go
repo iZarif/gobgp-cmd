@@ -1341,7 +1341,7 @@ func showGlobalRib(args []string) error {
 	return showNeighborRib(cmdGlobal, "", args)
 }
 
-func modPath(resource string, name, modtype string, args []string) error {
+func ModPath(resource string, name, modtype string, args []string) error {
 	f, err := checkAddressFamily(ipv4UC)
 	if err != nil {
 		return err
@@ -1632,7 +1632,7 @@ func newGlobalCmd() *cobra.Command {
 		cmd := &cobra.Command{
 			Use: v,
 			Run: func(cmd *cobra.Command, args []string) {
-				err := modPath(cmdGlobal, "", cmd.Use, args)
+				err := ModPath(cmdGlobal, "", cmd.Use, args)
 				if err != nil {
 					exitWithError(err)
 				}

@@ -210,7 +210,7 @@ func newVrfCmd() *cobra.Command {
 		cmd := &cobra.Command{
 			Use: v,
 			Run: func(cmd *cobra.Command, args []string) {
-				err := modPath(cmdVRF, args[len(args)-1], cmd.Use, args[:len(args)-1])
+				err := ModPath(cmdVRF, args[len(args)-1], cmd.Use, args[:len(args)-1])
 				if err != nil {
 					exitWithError(err)
 				}
