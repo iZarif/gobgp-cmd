@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	api "github.com/osrg/gobgp/api"
-	"gobgp/cmd/apiutil"
+	"myproj/gobgp/cmd/internal/pkg/apiutil"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 
 	"github.com/golang/protobuf/ptypes/any"

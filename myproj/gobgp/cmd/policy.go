@@ -25,13 +25,13 @@ import (
 	"strconv"
 	"strings"
 
-	"gobgp/cmd/apiutil"
+	"myproj/gobgp/cmd/internal/pkg/apiutil"
 
 	"github.com/spf13/cobra"
 
 	api "github.com/osrg/gobgp/api"
-	"gobgp/cmd/config"
-	table "gobgp/cmd/table"
+	"myproj/gobgp/cmd/internal/pkg/config"
+	table "myproj/gobgp/cmd/internal/pkg/table"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 )
 

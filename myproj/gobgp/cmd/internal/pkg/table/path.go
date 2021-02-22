@@ -24,7 +24,7 @@ import (
 	"sort"
 	"time"
 
-	"gobgp/cmd/config"
+	"myproj/gobgp/cmd/internal/pkg/config"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"

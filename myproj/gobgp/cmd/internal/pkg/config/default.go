@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"gobgp/cmd/zebra"
+	"myproj/gobgp/cmd/internal/pkg/zebra"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 	"github.com/osrg/gobgp/pkg/packet/bmp"
 	"github.com/osrg/gobgp/pkg/packet/rtr"

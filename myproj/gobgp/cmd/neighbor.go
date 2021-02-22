@@ -30,8 +30,8 @@ import (
 	"github.com/spf13/cobra"
 
 	api "github.com/osrg/gobgp/api"
-	"gobgp/cmd/apiutil"
-	"gobgp/cmd/config"
+	"myproj/gobgp/cmd/internal/pkg/apiutil"
+	"myproj/gobgp/cmd/internal/pkg/config"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 )
 

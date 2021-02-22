@@ -27,7 +27,7 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	api "github.com/osrg/gobgp/api"
-	"gobgp/cmd/apiutil"
+	"myproj/gobgp/cmd/internal/pkg/apiutil"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 )
 

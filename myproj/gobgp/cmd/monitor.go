@@ -25,7 +25,7 @@ import (
 	"github.com/spf13/cobra"
 
 	api "github.com/osrg/gobgp/api"
-	"gobgp/cmd/apiutil"
+	"myproj/gobgp/cmd/internal/pkg/apiutil"
 	"github.com/osrg/gobgp/pkg/packet/bgp"
 )
 
